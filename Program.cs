@@ -6,7 +6,7 @@ namespace HackerRank
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            MainCountingValleys.CountingValleys(8, "UDDDUDUU");
         }
     }
 }
