@@ -1,4 +1,5 @@
 ﻿using System;
+using HackerRank.SockMerchant;
 
 namespace HackerRank
 {
@@ -6,7 +7,7 @@ namespace HackerRank
     {
         static void Main(string[] args)
         {
-            MainCountingValleys.CountingValleys(8, "UDDDUDUU");
+            MainSockMerchant.SockMerchant(9, new int[] { 10, 20, 20, 10, 10, 30, 50, 10, 20 });
         }
     }
 }
