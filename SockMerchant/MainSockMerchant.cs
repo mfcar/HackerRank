@@ -13,19 +13,13 @@ namespace HackerRank.SockMerchant
 
             foreach (var sock in ar)
             {
-                if (!colorStack.ContainsKey(sock))
-                {
+                if (!colorStack.ContainsKey(sock)) {
                     colorStack.Add(sock, 1);
-                }
-                else
-                {
+                } else {
                     colorStack[sock]++;
+                    if (colorStack[sock] % 2 == 0)
+                        pairsCount++;
                 }
-            }
-
-            foreach (var color in colorStack)
-            {
-                pairsCount = pairsCount + (color.Value / 2);
             }
 
             return pairsCount;

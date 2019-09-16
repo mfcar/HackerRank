@@ -1,5 +1,4 @@
-﻿using System;
-using HackerRank.SockMerchant;
+﻿using HackerRank.RepeatedString;
 
 namespace HackerRank
 {
@@ -7,7 +6,7 @@ namespace HackerRank
     {
         static void Main(string[] args)
         {
-            MainSockMerchant.SockMerchant(9, new int[] { 10, 20, 20, 10, 10, 30, 50, 10, 20 });
+            MainRepeatedString.RepeatedString("aba", 10);
         }
     }
 }
