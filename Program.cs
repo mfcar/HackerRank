@@ -1,5 +1,6 @@
 ﻿using HackerRank.BirthdayCakeCandles;
 using HackerRank.CamelCase;
+using HackerRank.Operators;
 using HackerRank.TimeConversion;
 
 namespace HackerRank
@@ -8,7 +9,7 @@ namespace HackerRank
     {
         static void Main(string[] args)
         {
-            MainCamelCase.Camelcase("saveChangesInTheEditor");
+            MainOperators.Solve(12, 20, 8);
         }
     }
 }
