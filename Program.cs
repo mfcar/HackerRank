@@ -1,5 +1,6 @@
 ﻿using HackerRank.BirthdayCakeCandles;
 using HackerRank.CamelCase;
+using HackerRank.IntroToConditionalStatements;
 using HackerRank.Operators;
 using HackerRank.TimeConversion;
 
@@ -9,7 +10,7 @@ namespace HackerRank
     {
         static void Main(string[] args)
         {
-            MainOperators.Solve(12, 20, 8);
+            MainIntroToConditionalStatements.ReturnConditional();
         }
     }
 }
