@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Linq;
 
 namespace HackerRank.BinaryNumbers
 {
     public class MainBinaryNumbers
     {
-        public static void CalculareBinaryNumber()
+        public static void CalculateBinaryNumber()
         {
             var n = Convert.ToInt32(Console.ReadLine());
 
@@ -29,6 +28,13 @@ namespace HackerRank.BinaryNumbers
 
                 Console.WriteLine(consecutivesOnes);
             }
+        }
+
+        public static void CalculateBinaryNumber2()
+        {
+            var n = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(Convert.ToString(n, 2).Split('0').Max(x => x.Length));
         }
     }
 }
